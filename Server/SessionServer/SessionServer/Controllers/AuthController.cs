@@ -12,7 +12,7 @@ namespace SessionServer.Controllers
         private readonly UserDBContext _context;
         private readonly ILogger<AuthController> _logger;
         
-        public AuthController(UserDBContext context, ILogger<AuthController> logger>)
+        public AuthController(UserDBContext context, ILogger<AuthController> logger)
         {
             _context = context;
             _logger = logger;
