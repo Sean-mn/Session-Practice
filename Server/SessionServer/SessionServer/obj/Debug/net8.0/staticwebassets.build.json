@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "O00GIuzj9L36TKu2QYIXlQG0Omin9Nn1EFyGc/RzKJY=",
+  "Source": "SessionServer",
+  "BasePath": "_content/SessionServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
