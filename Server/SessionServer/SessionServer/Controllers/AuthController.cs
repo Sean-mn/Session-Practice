@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using SessionServer.DBContexts;
 using SessionServer.Models;
 using SessionServer.Requests;
+using SessionServer.Sessions;
 
 namespace SessionServer.Controllers
 {
@@ -53,6 +54,14 @@ namespace SessionServer.Controllers
                 }
                 
                 _logger.LogInformation($"로그인 성공: 유저 이름: {request.UserName}");
+
+                var loginSession = new LoginSession
+                {
+                    UserId = user.Id,
+                    UserName = user.UserName
+                };
+                
+                SessionManager.SetLoginSession(HttpContext.Session, loginSession);
                 
                 return Ok(new { username = user.UserName, id = user.Id });
             }
