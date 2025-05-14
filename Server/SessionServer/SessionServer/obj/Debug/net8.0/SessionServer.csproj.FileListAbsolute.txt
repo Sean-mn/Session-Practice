@@ -235,3 +235,4 @@ C:\Users\USER\Documents\GitHub\Session-Practice\Server\SessionServer\SessionServ
 C:\Users\USER\Documents\GitHub\Session-Practice\Server\SessionServer\SessionServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\USER\Documents\GitHub\Session-Practice\Server\SessionServer\SessionServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\USER\Documents\GitHub\Session-Practice\Server\SessionServer\SessionServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\USER\Documents\GitHub\Session-Practice\Server\SessionServer\SessionServer\bin\Debug\net8.0\BCrypt.Net.dll
